@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import transaction from '../../transactions.json';
+import transaction from '../data/transactions.json';
 import s from './Transaction.module.css'
 
 

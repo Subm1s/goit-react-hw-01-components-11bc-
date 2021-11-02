@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
-import Friend from '../../friends.json';
+// import PropTypes from 'prop-types';
+import Friend from '..//data/friends.json';
 import s from './Friends.module.css';
 
 export default function FriendsList({ name, avatar, isOnline }){
@@ -15,8 +15,3 @@ Friend.map(el =>(
     );
 }
 
-FriendsList.propTypes = {
-    avatar:PropTypes.string,
-    name:PropTypes.string,
-    isOnline:PropTypes.bool,
-}

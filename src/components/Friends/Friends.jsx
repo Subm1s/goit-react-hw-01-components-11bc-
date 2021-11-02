@@ -15,8 +15,8 @@ export default function Friends(){
     );
 };
 
-Friends.propTypes = {
-    avatar:PropTypes.string,
-    name:PropTypes.string,
-    isOnline:PropTypes.bool,
-}
+FriendsList.propTypes = {
+    friends: PropTypes.arrayOf(
+      PropTypes.shape({})
+    ).isRequired
+  };

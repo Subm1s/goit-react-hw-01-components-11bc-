@@ -1,5 +1,8 @@
 .statistic{
-    margin: 20px auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 100%;
 }
 .title{
     text-align: center;
@@ -7,9 +10,7 @@
 .statList{
     display: flex;
     justify-content: center;
-    background-color: rgb(42, 76, 189);
-    justify-content: space-around;
-
+    padding: 20px 20px;
 }
 .item{
     display: flex;
@@ -18,11 +19,11 @@
     text-align: center;
 }
 .label{
-    color: #fff;
+    color: black;
   font-size: 17px;
 }
 .percentage{
-    color: #fff;
+    color: black;
   font-size: 20px;
   font-weight: bold;
 }
